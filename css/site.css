@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: monospace;
+}
+
+body {
+  font-family: sans-serif;
+  width: fit-content;
+}
+
+header {
+  background-color: navy;
+  color: white;
+  text-align: left;
+  padding: 20px;
+}
+nav {
+  float: left;
+  background-color: navy;
+  color: beige;
+  width: 30%;
+  height: 1200px;
+  padding: 20px;
+  text-align: left;
+}
+article {
+  background-color: rgb(228, 227, 249);
+  float: left;
+  width: 70%;
+  padding: 20px;
+}
+aside {
+  clear: both;
+}
+footer {
+  background: #222;
+  color: #eee;
+  text-align: center;
+  padding: 0.5em;
+  font-size: 0.9em;
+}
+
+form {
+  padding-top: 30px;
+  width: fit-content;
+}
+button {
+  border-radius: 10px;
+  border-color: navy;
+  background-color: rgba(0, 0, 255, 0.569);
+  color: white;
+}
+
+h2 {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.navlink {
+  text-align: left;
+  color: beige;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#ulSymbols {
+  list-style-type: disc;
+}
+
+kbd {
+  background-color: black;
+  color: red;
+  font-weight: bolder;
+  font-size: larger;
+  text-align: center;
+}
+#error {
+  background-color: black;
+  text-align: center;
+  color: beige;
+}
+#underline {
+  background-color: red;
+  width: 100%;
+}
+
+label {
+  padding-top: 20px;
+}
+input {
+}
+legend {
+  border: 10px;
+}
+.small {
+  font-size: x-small;
+}
+iframe {
+  width: 100%;
+}
+li {
+  padding-top: 10px;
+}
+content {
+  height: 1200px;
+  overflow-y: scroll;
+}
+.warning {
+  background-color: red;
+  color: white;
+  font-weight: bolder;
+  text-align: center;
+}
+.boldlink {
+  background-color: darkred;
+  font-size: 40px;
+  color: aliceblue;
+  line-height: 20%;
+  border-radius: 20%;
+}
+.space {
+  height: 30px;
+}
+.printOnly {
+  display: none;
+}
+
+/* 
+  Checked 8/8 
+  well caught up and ahead,
+          great work, Colin! 
+
+                stay curious
+
+                    -bally  -->
+
+
+ */

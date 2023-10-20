@@ -1,0 +1,22 @@
+button {
+  display: none;
+}
+
+.screen {
+  display: none;
+}
+
+nav {
+  display: none;
+}
+
+fieldset {
+  width: max-content;
+}
+.printOnly {
+  display: block;
+}
+
+a::after {
+  content: attr(href);
+}

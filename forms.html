@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./css/site.css" />
+  </head>
+  <body>
+    <navigation>
+      <a href="everything.html"> Index Page</a>
+    </navigation>
+    <h2>HTML Forms</h2>
+    <!-- If you click the "Submit" button, the form
+-data will be sent to a page called "/action_pa
+ge". -->
+    <form action="/404.html">
+      <fieldset>
+      <legend>Your Details</legend>
+      <label>First name:</label><br />
+      <input
+        type="text"
+        name="firstName"
+        value="Joel"
+        autocomplete="given-name"
+        autofocus
+      /><br /></label>
+      <label >Last name:<br />
+      <input
+        type="text"
+        id="lastName"
+        name="lastNam
+e"
+        value="Doe"
+      />
+    
+    </label>
+    <label>Email
+      <input type="email"  />
+    </fieldset>
+  </legend>
+    <br /><br />
+    <label>Range Slider
+      <input type="range" min="-10" max="20" name="range" />
+    </label>
+     
+      <input  type="time" value="18:20" />
+      <br>
+      
+    </label><br><br>
+    <input type="date">
+    <label>Pick a Colour
+    <input type="color">
+  </label>
+    <input type="button" value="Submit"/>
+    <br>
+    <label>File Name
+      <input type="file" accept="image/jpeg">
+    </label>
+    <input type="hidden">
+    <button type="submit" onclick="">I'm here, choose me</button>
+    <br>
+    <label>Password
+      <input type="password" inputmode="numeric"/>
+    </label>
+    <br>
+    <label>Text Area
+      <textarea></textarea>
+    </label>
+  
+    </form>
+    <div id="underline"><p> </p></div>
+  </body>
+</html>

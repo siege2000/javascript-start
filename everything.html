@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" meddia="screen" href="./css/site.css" />
+    <link rel="stylesheet" media="print" href="./css/print.css" />
+    <title>Article</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+  </head>
+  <body>
+    <header>
+      <h1>Hello Javascript</h1>
+    </header>
+    <section>
+      <nav id="navlink">
+        <h3>Some handy links</h3>
+        <ul>
+          <li><a class="navlink" href="#">Home</a><p class="small">This wont take you anywhere</p></li>
+          <li><a class="navlink" href="#">Articles</a><p class="small">Nope not this either</p></li>
+          <li><a class="navlink" href="forms.html">Forms Examples</a><p class="small">This is a demo of forms</p></li>
+        </ul>
+      </nav>
+      <article>
+        <h2>Iron Maiden Hoodie</h2>
+       <img src="https://enterprise-ecommerce-store-images.freetls.fastly.net/resize?u=aHR0cHM6Ly9lY29tbWVyY2UtcHVibGljLWFzc2V0cy5zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2ZmY2FmYjlkLTMxNjAtNDc2My1iOTUwLWQwYzYxOGQyYzFkNy8yMDIzLzEwLzE3LzE1LzIzL2Y3MjhjMjQ4LWZjYzMtNDlkOC1hMDUxLTI4MmMyNWJkNjhhMg%3D%3D&mode=contain&width=1200&v=1" alt="Trooper Hoodie Image" width="300">
+       <p>Limited time - $99.98</p>
+        
+      
+      
+
+<form id="buyNow" action="/404.html">
+  <h2>Enter your name and address below</h2>
+  <p>It just opens an alert. You wont be buying anything</p>
+  <fieldset>
+    <legend>Your Details</legend>
+
+  <Label>First name
+  <input type="text" name="firstName" autofocus autocomplete="name" ></input></Label>
+  <Label>Family name
+    <input type="text" name="familyName" autocomplete="family-name" ></input></Label>
+
+    <Label>Street Address <input type="text" autocomplete="address-level1"/></Label>
+    <Label>Email
+  <input type="email" name="email" autocomplete="email" ></input></Label>
+  <input type="button" value="Order NOW" onclick="SubmitAddress()" class="screen" />
+
+</fieldset>
+<button class="warning" type="button" onclick="window.location.href='404.html'">DO NOT PRESS THIS BUTTON</button>
+</form>
+</article>
+    <p>
+      <script>
+        document.append("<p>Test</>")
+      </script>
+    </p>
+      
+    <footer>
+      <p>@copyright 2050 by nobody. all rights reversed</p>
+    </footer>
+    <script>
+      function SubmitAddress(){
+        alert("Thanks for that - we will ship your item after payment is confirmed")
+        
+      }
+    </script>
+  </body>
+</html>
